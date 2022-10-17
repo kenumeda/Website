@@ -11,9 +11,15 @@ body {
 }
 
 
-/*section*/
+/*
+section
+*/
 .section{
     padding: 30px 15px;
+}
+
+.section.section-secondary{
+    background: #efefef;
 
 }
 .section--headline{
@@ -27,23 +33,16 @@ body {
 .about{
     margin:0px;
     display: flex;
-
 }
-.about-image{
-   
+/* .about-image{ */
 
-}
 .about-caption{
     padding-left: 15px;
-
 }
 .about-headline{
     margin: 0 0 20px;
-
-
+    font-size: 30px;
 } 
-.about-description{
 
-
-}
+/*.about-description{}*/
    
