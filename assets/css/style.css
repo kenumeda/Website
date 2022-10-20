@@ -94,6 +94,7 @@ section
     color:#333;
     text-decoration: none;
     position: relative;
+    transition: background-color 0.5s;
 }
 .card-link:hover{
     background-color: #eee;
@@ -110,10 +111,38 @@ section
     padding: 5px 10px;
     font-size: 12px;
 }
-.card-image{}
-.card-info{}
-.card-time{}
-.card-headline{}
-.card-description{}
-.avator-name{}
-.avator-image{}
+.card-image{
+    width: 100%;
+    height: auto;
+}
+.card-info{
+    padding: 5px 10px ;
+}
+/* .card-time{} */
+.card-headline{
+    margin: 0;
+}
+.card-description{
+    margin: 0;
+}
+/* 
+avator 
+*/
+.avator{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+
+}
+.avator-name{
+    font-weight: bold;
+    padding-left: 15px;
+}
+.avator-image{
+    margin: 0;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
