@@ -10,6 +10,15 @@ body {
     color:#333;
 }
 
+label,input,textarea, select,button{
+    cursor: pointer;
+}
+
+button{
+    border:0;
+}
+
+
 /* grid */
 .grid{
     margin:0px;
@@ -171,12 +180,14 @@ avator
     border-radius: 5px;
     box-shadow: 5px 5px 0 #bbb;
     transition: box-shadow .25s;
-
-
 }
 
 .button:hover{
     box-shadow: 0 0 0 #bbb;
+}
+
+.button.button-submission{
+    background: teal;
 }
 
 /* 
@@ -195,12 +206,38 @@ avator
     border: 1px solid #ccc;
     min-width: 500px;
  }
+
  .radio {
     margin: 0 10px;
  }
+
  .textarea  {
     border-radius: 5px;
     padding: 10px;
     border: 1px solid #ccc;
     min-width: 500px;
+    min-height: 100px;
+}
+
+/* 
+form 
+ */
+ /* .form{} */
+ .form-table{
+    margin: 0 auto;
  }
+ /* .form-table tr{ */
+
+.form-table th{
+    padding:10px;
+    text-align: left;
+}
+.form-table td{
+    padding: 10px;
+}
+
+.form-button{
+    margin: 20px;
+    text-align: center;
+    background-color: ;
+}
