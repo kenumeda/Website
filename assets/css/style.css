@@ -239,5 +239,19 @@ form
 .form-button{
     margin: 20px;
     text-align: center;
-    background-color: ;
+    
+}
+
+/*
+ works
+*/
+
+.works{
+    margin: 40px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.works > img{
+    margin: 15px;
 }
