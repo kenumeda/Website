@@ -255,3 +255,50 @@ form
 .works > img{
     margin: 15px;
 }
+
+
+/* 
+footer 
+*/
+.footer {
+    background-color: #333;
+    color: white;
+}
+.footer-map{
+    margin: 0px;
+    padding: 40px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-map > iframe{
+    width: 60%;
+}
+.footer-mapinfo{
+    width: 40%;
+    padding: 15px;
+}
+.footer-maplogo {
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer-maplogo > svg {
+    fill:transparent;
+    margin-right: 10px;
+}
+.footer-mapaddress{
+    font-style: normal;
+}
+.footer-mapaddress > a{
+    color:#fff;
+    
+} 
+.figcaption{}
+.footer-line{
+    border-color: #444;
+}
+.footer-copy{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
